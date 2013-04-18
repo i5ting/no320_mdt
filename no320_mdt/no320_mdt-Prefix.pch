@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'no320_mdt' target in the 'no320_mdt' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
