@@ -474,6 +474,7 @@
 		5DDEB9E9171F84C100F6FDBA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "no320_mdt/no320_mdt-Prefix.pch";
@@ -483,6 +484,7 @@
 					"\"$(SRCROOT)/vendor/MMMarkdown\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -490,6 +492,7 @@
 		5DDEB9EA171F84C100F6FDBA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "no320_mdt/no320_mdt-Prefix.pch";
@@ -499,6 +502,7 @@
 					"\"$(SRCROOT)/vendor/MMMarkdown\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
