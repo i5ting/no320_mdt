@@ -27,7 +27,6 @@ When building no320_mdt, make sure that "no320_mdt" is the selected target (it m
 
 
 
-
 ## 目前只是把架子搭起来了，内容会一点一点更新的
 
 期待大家一起完善
