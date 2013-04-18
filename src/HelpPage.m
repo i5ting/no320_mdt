@@ -1,9 +1,9 @@
 //
-//  HelpPage.m
-//  CocosBuilder
+//  MDDocument.h
+//  no320_mdt
 //
-//  Created by Viktor Lidholt on 8/31/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by sang on 4/18/13.
+//  Copyright (c) 2013 alfred sang. All rights reserved.
 //
 
 #import "HelpPage.h"
