@@ -10,4 +10,7 @@
 
 @interface Document : NSDocument
 
+
+- (IBAction)showHelp:(id)sender;
+
 @end

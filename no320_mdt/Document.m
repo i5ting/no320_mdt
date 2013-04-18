@@ -7,6 +7,7 @@
 //
 
 #import "Document.h"
+#import "HelpWindow.h"
 
 @implementation Document
 
@@ -54,6 +55,13 @@
     NSException *exception = [NSException exceptionWithName:@"UnimplementedMethod" reason:[NSString stringWithFormat:@"%@ is unimplemented", NSStringFromSelector(_cmd)] userInfo:nil];
     @throw exception;
     return YES;
+}
+
+#pragma mark - 
+
+- (IBAction)showHelp:(id)sender{
+    HelpWindow * helpWindow = [[HelpWindow alloc] initWithWindowNibName:@"HelpWindow"];
+    [[helpWindow window] makeKeyAndOrderFront:self];
 }
 
 @end

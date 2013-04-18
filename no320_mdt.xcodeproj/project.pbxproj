@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D882DA3171F886800050F3B /* libMMMarkdown-Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D882DA0171F886800050F3B /* libMMMarkdown-Mac.a */; };
+		5D882DA4171F886800050F3B /* libMMMarkdown-Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D882DA0171F886800050F3B /* libMMMarkdown-Mac.a */; };
+		5D882DA5171F886800050F3B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5D882DA2171F886800050F3B /* README.md */; };
+		5D882DA6171F886800050F3B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5D882DA2171F886800050F3B /* README.md */; };
+		5D882DAD171F887000050F3B /* HelpPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D882DA9171F887000050F3B /* HelpPage.m */; };
+		5D882DAE171F887000050F3B /* HelpPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D882DA9171F887000050F3B /* HelpPage.m */; };
+		5D882DAF171F887000050F3B /* HelpWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D882DAB171F887000050F3B /* HelpWindow.m */; };
+		5D882DB0171F887000050F3B /* HelpWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D882DAB171F887000050F3B /* HelpWindow.m */; };
+		5D882DB1171F887000050F3B /* HelpWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D882DAC171F887000050F3B /* HelpWindow.xib */; };
+		5D882DB2171F887000050F3B /* HelpWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D882DAC171F887000050F3B /* HelpWindow.xib */; };
+		5D882DB4171F89E700050F3B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D882DB3171F89E700050F3B /* WebKit.framework */; };
+		5D882DB6171F89F000050F3B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D882DB5171F89F000050F3B /* AVFoundation.framework */; };
+		5D882DB8171F89F600050F3B /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D882DB7171F89F600050F3B /* OpenAL.framework */; };
+		5D882DBA171F8A0700050F3B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D882DB9171F8A0700050F3B /* CoreAudio.framework */; };
+		5D882DBC171F8A0E00050F3B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D882DBB171F8A0E00050F3B /* AudioToolbox.framework */; };
+		5D882EC3171F8B9400050F3B /* Documentation in Resources */ = {isa = PBXBuildFile; fileRef = 5D882EC2171F8B9400050F3B /* Documentation */; };
+		5D882EC4171F8B9400050F3B /* Documentation in Resources */ = {isa = PBXBuildFile; fileRef = 5D882EC2171F8B9400050F3B /* Documentation */; };
+		5D882EC6171F92D700050F3B /* help-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D882EC5171F92D700050F3B /* help-logo.png */; };
+		5D882EC7171F92D700050F3B /* help-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D882EC5171F92D700050F3B /* help-logo.png */; };
 		5DDEB9B8171F84C000F6FDBA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DDEB9B7171F84C000F6FDBA /* Cocoa.framework */; };
 		5DDEB9C2171F84C000F6FDBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DDEB9C0171F84C000F6FDBA /* InfoPlist.strings */; };
 		5DDEB9C4171F84C000F6FDBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDEB9C3171F84C000F6FDBA /* main.m */; };
@@ -31,6 +50,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D882DA0171F886800050F3B /* libMMMarkdown-Mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libMMMarkdown-Mac.a"; sourceTree = "<group>"; };
+		5D882DA1171F886800050F3B /* MMMarkdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMarkdown.h; sourceTree = "<group>"; };
+		5D882DA2171F886800050F3B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		5D882DA8171F887000050F3B /* HelpPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpPage.h; sourceTree = "<group>"; };
+		5D882DA9171F887000050F3B /* HelpPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpPage.m; sourceTree = "<group>"; };
+		5D882DAA171F887000050F3B /* HelpWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpWindow.h; sourceTree = "<group>"; };
+		5D882DAB171F887000050F3B /* HelpWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpWindow.m; sourceTree = "<group>"; };
+		5D882DAC171F887000050F3B /* HelpWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpWindow.xib; sourceTree = "<group>"; };
+		5D882DB3171F89E700050F3B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		5D882DB5171F89F000050F3B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5D882DB7171F89F600050F3B /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		5D882DB9171F8A0700050F3B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		5D882DBB171F8A0E00050F3B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5D882EC2171F8B9400050F3B /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Documentation; path = res/Documentation; sourceTree = "<group>"; };
+		5D882EC5171F92D700050F3B /* help-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help-logo.png"; sourceTree = "<group>"; };
 		5DDEB9B4171F84C000F6FDBA /* no320_mdt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = no320_mdt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDEB9B7171F84C000F6FDBA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5DDEB9BA171F84C000F6FDBA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -58,7 +92,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D882DBC171F8A0E00050F3B /* AudioToolbox.framework in Frameworks */,
+				5D882DBA171F8A0700050F3B /* CoreAudio.framework in Frameworks */,
+				5D882DB8171F89F600050F3B /* OpenAL.framework in Frameworks */,
+				5D882DB6171F89F000050F3B /* AVFoundation.framework in Frameworks */,
+				5D882DB4171F89E700050F3B /* WebKit.framework in Frameworks */,
 				5DDEB9B8171F84C000F6FDBA /* Cocoa.framework in Frameworks */,
+				5D882DA3171F886800050F3B /* libMMMarkdown-Mac.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,15 +108,63 @@
 			files = (
 				5DDEB9D9171F84C100F6FDBA /* SenTestingKit.framework in Frameworks */,
 				5DDEB9DA171F84C100F6FDBA /* Cocoa.framework in Frameworks */,
+				5D882DA4171F886800050F3B /* libMMMarkdown-Mac.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D882D9E171F886800050F3B /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				5D882D9F171F886800050F3B /* MMMarkdown */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		5D882D9F171F886800050F3B /* MMMarkdown */ = {
+			isa = PBXGroup;
+			children = (
+				5D882DA0171F886800050F3B /* libMMMarkdown-Mac.a */,
+				5D882DA1171F886800050F3B /* MMMarkdown.h */,
+				5D882DA2171F886800050F3B /* README.md */,
+			);
+			path = MMMarkdown;
+			sourceTree = "<group>";
+		};
+		5D882DA7171F887000050F3B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5D882DA8171F887000050F3B /* HelpPage.h */,
+				5D882DA9171F887000050F3B /* HelpPage.m */,
+				5D882DAA171F887000050F3B /* HelpWindow.h */,
+				5D882DAB171F887000050F3B /* HelpWindow.m */,
+				5D882DAC171F887000050F3B /* HelpWindow.xib */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		5D882DBD171F8A6D00050F3B /* res */ = {
+			isa = PBXGroup;
+			children = (
+				5D882EC5171F92D700050F3B /* help-logo.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
 		5DDEB9AB171F84C000F6FDBA = {
 			isa = PBXGroup;
 			children = (
+				5D882EC2171F8B9400050F3B /* Documentation */,
+				5D882DBD171F8A6D00050F3B /* res */,
+				5D882DBB171F8A0E00050F3B /* AudioToolbox.framework */,
+				5D882DB9171F8A0700050F3B /* CoreAudio.framework */,
+				5D882DB7171F89F600050F3B /* OpenAL.framework */,
+				5D882DB5171F89F000050F3B /* AVFoundation.framework */,
+				5D882DB3171F89E700050F3B /* WebKit.framework */,
+				5D882DA7171F887000050F3B /* src */,
+				5D882D9E171F886800050F3B /* vendor */,
 				5DDEB9BD171F84C000F6FDBA /* no320_mdt */,
 				5DDEB9DD171F84C100F6FDBA /* no320_mdtTests */,
 				5DDEB9B6171F84C000F6FDBA /* Frameworks */,
@@ -231,6 +319,10 @@
 				5DDEB9C8171F84C000F6FDBA /* Credits.rtf in Resources */,
 				5DDEB9CE171F84C000F6FDBA /* Document.xib in Resources */,
 				5DDEB9D1171F84C100F6FDBA /* MainMenu.xib in Resources */,
+				5D882DA5171F886800050F3B /* README.md in Resources */,
+				5D882DB1171F887000050F3B /* HelpWindow.xib in Resources */,
+				5D882EC3171F8B9400050F3B /* Documentation in Resources */,
+				5D882EC6171F92D700050F3B /* help-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +331,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DDEB9E2171F84C100F6FDBA /* InfoPlist.strings in Resources */,
+				5D882DA6171F886800050F3B /* README.md in Resources */,
+				5D882DB2171F887000050F3B /* HelpWindow.xib in Resources */,
+				5D882EC4171F8B9400050F3B /* Documentation in Resources */,
+				5D882EC7171F92D700050F3B /* help-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +363,8 @@
 			files = (
 				5DDEB9C4171F84C000F6FDBA /* main.m in Sources */,
 				5DDEB9CB171F84C000F6FDBA /* Document.m in Sources */,
+				5D882DAD171F887000050F3B /* HelpPage.m in Sources */,
+				5D882DAF171F887000050F3B /* HelpWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +373,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DDEB9E5171F84C100F6FDBA /* no320_mdtTests.m in Sources */,
+				5D882DAE171F887000050F3B /* HelpPage.m in Sources */,
+				5D882DB0171F887000050F3B /* HelpWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +496,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "no320_mdt/no320_mdt-Prefix.pch";
 				INFOPLIST_FILE = "no320_mdt/no320_mdt-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor/MMMarkdown\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,6 +512,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "no320_mdt/no320_mdt-Prefix.pch";
 				INFOPLIST_FILE = "no320_mdt/no320_mdt-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor/MMMarkdown\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -422,6 +530,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "no320_mdt/no320_mdt-Prefix.pch";
 				INFOPLIST_FILE = "no320_mdtTests/no320_mdtTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor/MMMarkdown\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -437,6 +549,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "no320_mdt/no320_mdt-Prefix.pch";
 				INFOPLIST_FILE = "no320_mdtTests/no320_mdtTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor/MMMarkdown\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -462,6 +578,7 @@
 				5DDEB9EA171F84C100F6FDBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DDEB9EB171F84C100F6FDBA /* Build configuration list for PBXNativeTarget "no320_mdtTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +587,7 @@
 				5DDEB9ED171F84C100F6FDBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
